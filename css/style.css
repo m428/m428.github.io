@@ -1,0 +1,334 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700|Mitr:500);
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-size: cover;*/
+    font-family: 'Mitr', sans-serif;
+    height: 100vh;
+}
+
+.navbar {
+  margin: 0px;
+  font-family: 'Merriweather Sans', sans-serif;
+  background-color: #FFFFFF;
+  border: none;
+  color: #FF3D00;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li >a {
+  color: #000000;
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+.navbar-inverse .navbar-brand:hover {
+  color: #000000;
+  font-size: 14pt;
+}
+
+.navbar-inverse .navbar-nav > li >a:hover {
+  color: #00E5FF;
+  font-size: 14pt;
+}
+
+footer {
+    padding-top: 10px;
+    font-size: 11pt;
+}
+
+
+
+/*///// BANNER /////*/
+.banner {
+  margin: -20px;
+  padding-top: 7%;
+  font-family: 'Merriweather Sans', sans-serif;
+  background-image: url('http://imgur.com/sIjLps5.png');
+  height:100vh;
+  min-height:100vh;
+  color: #000000;
+}
+
+.greeting {
+font-weight: bold;
+font-size: 70pt;
+}
+
+.name {
+font-size: 55pt;
+}
+
+.intro {
+font-size: 16pt;
+text-transform: uppercase;
+}
+
+
+
+/*///// MAIN CONTENT /////*/
+h3 {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: bold;
+  font-size: 26pt;
+}
+
+span {
+  font-size: 12pt;
+}
+
+/* projects */
+.project {
+  padding-top: 25px;
+}
+
+.one {
+  background-color: #FF00FF;
+  padding: 25px;
+  color: #FFFFFF;
+}
+
+.two {
+  background-color: #00E5FF;
+  padding: 25px;
+}
+
+
+.three {
+  background-color: #FFFF00;
+  padding: 25px;
+}
+
+.four {
+  background-color: #9E9E9E;
+  padding: 25px;
+  color: #FFFFFF;
+}
+
+
+.five {
+  background-color: #781FFF;
+  padding: 25px;
+  color: #FFFFFF;
+}
+
+.six {
+  background-color: #00E676;
+  padding: 25px;
+  color: #FFFFFF;
+
+}
+
+.seven {
+  background-color: #FF80AB;
+  padding: 25px;
+  color: #FFFFFF;
+}
+
+.eight {
+  background-color: #FF3D00;
+  padding: 25px;
+  color: #FFFFFF;
+}
+
+.nine {
+  background-color: #FF9100;
+  padding: 25px;
+  color: #FFFFFF;
+}
+
+
+/*///// ANIMATIONS /////*/
+/* set animation time */
+.animate {
+  -moz-animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  font-weight: bold;
+}
+
+/* web developer - left */
+@-moz-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+@-webkit-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.slideLeft {
+  -moz-animation-name: fadeInLeft;
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+
+/* graphic designer - right */
+@-moz-keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+@-webkit-keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.slideRight {
+  -moz-animation-name: fadeInRight;
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+  padding-bottom: 10px;
+}
+
+/* intro sentence */
+span.intro1 {
+  animation: introduction 8s ease-in-out 1;
+}
+
+span.intro2 {
+  animation: introduction 9s ease-in-out 1;
+}
+
+span.intro3 {
+  animation: introduction 10s ease-in-out 1;
+}
+
+span.intro4 {
+  animation: introduction 11s ease-in-out 1;
+}
+
+span.intro5 {
+  animation: introduction 12s ease-in-out 1;
+}
+
+span.intro6 {
+  animation: introduction 13s ease-in-out 1;
+}
+
+span.intro7 {
+  animation: introduction 14s ease-in-out 1;
+}
+
+span.intro8 {
+  animation: introduction 15s ease-in-out 1;
+}
+
+span.intro9 {
+  animation: introduction 16s ease-in-out 1;
+}
+
+span.intro10 {
+  animation: introduction 17s ease-in-out 1;
+}
+
+span.intro11 {
+  animation: introduction 18s ease-in-out 1;
+}
+
+span.intro12 {
+  animation: introduction 19s ease-in-out 1;
+}
+
+span.intro13 {
+  animation: introduction 20s ease-in-out 1;
+}
+
+span.intro14 {
+  animation: introduction 21s ease-in-out 1;
+}
+
+span.intro15 {
+  animation: introduction 22s ease-in-out 1;
+}
+
+span.intro16 {
+  animation: introduction 23s ease-in-out 1;
+}
+
+span.intro17 {
+  animation: introduction 24s ease-in-out 1;
+}
+
+span.intro18 {
+  animation: introduction 25s ease-in-out 1;
+}
+
+
+span.intro19 {
+  animation: introduction 26s ease-in-out 1;
+}
+
+
+@keyframes introduction {
+  0% {color: #000000;}
+  20% {color: #FFFFFF;}
+  35% {color: #000000;}
+  100% {color: #000000;}
+}
+
+/*///// BASIC STYLES /////*/
+.center {
+  text-align: center;
+}
+
+/* buttons */
+.btn {
+background-color: #FFFFFF;
+color: #000000;
+border: none;
+/*border-radius: 0px;*/
+}
+
+.btn:hover, .btn:focus, .btn:active {
+  background-color: #000000;
+  color: #FFFFFF;
+  border: none;
+}
