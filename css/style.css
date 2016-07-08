@@ -30,6 +30,12 @@ body {
   font-size: 14pt;
 }
 
+/* hamburger */
+.navbar-toggle {
+  background-color: #00E5FF;
+  border: none;
+}
+
 footer {
     padding-top: 10px;
     font-size: 11pt;
@@ -324,7 +330,7 @@ span.intro19 {
 background-color: #FFFFFF;
 color: #000000;
 border: none;
-/*border-radius: 0px;*/
+margin-bottom: 10px;
 }
 
 .btn:hover, .btn:focus, .btn:active {
