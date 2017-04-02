@@ -1,5 +1,18 @@
+
 body {
   color: #F5B7C0;
+  position: relative;
+}
+
+/*///// NAVIGATION BAR /////*/
+.nav {
+  padding-top: 24px;
+  float: right;
+}
+
+.nav>li>a {
+  color: #F5B7C0;
+  font-size: 14pt;
 }
 
 /*///// BANNER /////*/
