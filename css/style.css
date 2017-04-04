@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Rubik:700');
+/*@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Rubik:700');*/
+@import url('https://fonts.googleapis.com/css?family=Handlee|Roboto+Mono|Rubik:700');
+
 
 body {
   color: #F5B7C0;
@@ -47,6 +49,14 @@ body {
 /*///// BASIC STYLES /////*/
 h1 {
   font-family: 'Rubik', sans-serif;
+}
+
+.font-handlee {
+  font-family: 'Handlee', cursive;
+}
+
+hr {
+  margin: 5px;
 }
 
 .btn {
