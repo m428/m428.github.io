@@ -51,6 +51,10 @@ body {
   padding: 40px 0px 40px 0px;
 }
 
+img:hover {
+  opacity: 0.5;
+}
+
 @media screen and (max-width: 480px) { /* iphone 6 or later */
   .preview {
     width: 300px;
