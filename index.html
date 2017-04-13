@@ -8,16 +8,16 @@
     <meta name="author" content="">
     <title>Mala Nimalasuriya</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-     <script src="js/app.js"></script>
-     <link rel="stylesheet" href="css/style.css">
-     <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body>
   <!--***** NAVBAR *****-->
   <div class="container">
-    <nav class="navbar navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-fixed-top animated fadeInDown" role="navigation">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
           <span class="sr-only">Toggle navigation</span>
@@ -46,10 +46,12 @@
     </nav>
   </div>
   <!--***** BANNER *****-->
-  <div class="jumbotron">
+  <div class="jumbotron animated">
+    <h1 class="text-center animated fadeInUp" id="name">Mala Nimalasuriya</h1>
+    <h3 class="text-center animated fadeInUp" id="titles">Web Developer &#38; Graphic Designer</h3>
   </div>
   <!--***** MAIN CONTENT *****-->
-  <div class="container text-center">
+  <div class="container text-center animated fadeIn" id="main">
       <div class="row project-rows">
         <div class="col-xs-12 col-md-6">
           <img class="center-block preview" src="img/campfire-preview.png" alt="Campfire" width="500">
@@ -59,17 +61,39 @@
           <h5>Campfire empowers home growers and consumers with safe access to an open marketplace to share cannabis. Prior to their beta launch, Campfire needed a new website to announce their newly redesigned iOS app and increase engagement with their users.</h5>
           <hr>
           <h5>To maintain brand consistency and considering their user base, I designed and developed a mobile-friendly website in accordance with visual elements from Campfire’s iOS app. MailChimp was integrated to capture emails and build a mailing list, and a demo video was also added to the site in the form of an embedded YouTube video. </h5>
-          <button type="button" class="btn">View Project</button>
+          <a href="http://campfireapp.co/" class="btn">View Project</a>
         </div>
         <div class="col-xs-12 col-md-6">
-          <img class="center-block preview" src="img/wishlist-preview.png" alt="Wish List" width="500">
+          <img class="center-block preview content" src="img/wishlist-preview.png" alt="Wish List" width="500">
           <h1>Wish List</h1>
           <h2 class="font-handlee">Development &#38; Design</h2>
           <h4>Rails | HTML | CSS | Bootstrap| PostgreSQL</h4>
-          <h5>As many of us do, I struggle with gift giving. Often, I find the perfect present but the appropriate occasion may be months or even years (yes, years) away. Is it possible for modern women to make Emily Post proud while reconciling a desire to give truly meaningful and timely gifts when nobody got time for that?</h5>
+          <h5>As many of us do, I struggle with gift giving. Often, I find the perfect present but the appropriate occasion may be months or even years (yes, years) away. Is it possible for modern men and women to make Emily Post proud while reconciling a desire to give truly meaningful and timely gifts when nobody got time for that?</h5>
           <hr>
           <h5>Wish List is an organizational tracking tool that allows users to track the things they love and manage gift giving for any occasion. Users can create personalized wish lists, search within their lists, and view the wish lists of friends and family.</h5>
-          <button type="button" class="btn">View Project</button>
+          <a href="https://github.com/m428/Wish-List" class="btn">View Project</a>
+        </div>
+      </div>
+      <div class="row project-rows">
+        <div class="col-xs-12 col-md-6">
+          <img class="center-block preview" src="img/msf-preview.png" alt="Doctors Without Borders" width="500">
+          <h1>Doctors Without Borders</h1>
+          <h2 class="font-handlee">Design &#38; Research</h2>
+          <h4>Adobe Illustrator</h4>
+          <h5>The term evergreening describes the method by which pharmaceutical companies patent small modifications to existing drugs, thereby extending monopoly protection and delaying the production of more affordable generics. As part of MSF’s advocacy efforts surrounding the Trans-Pacific Partnership (TPP), MSF wanted to express this concept visually.</h5>
+          <hr>
+          <h5>As an intern for the Access to Essential Medicines Campaign, I took the initiative to design and create the above infographic using Adobe Illustrator. The primary goal was to emphasize the fact that evergreening essentially allows pharmaceutical companies to disguise existing medications which ultimately delays the production of affordable generics through patent extensions.</h5>
+          <a href="http://www.doctorswithoutborders.org/news-stories/press-release/novartis-challenge-against-indias-pro-health-patent-law-heads-supreme" class="btn">View Project</a>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <img class="center-block preview" src="img/mindtaker-preview.png" alt="Mind Taker" width="500">
+          <h1>Mind Taker</h1>
+          <h2 class="font-handlee">Development &#38; Design</h2>
+          <h4>JavaScript | jQuery | HTML | CSS | Bootstrap</h4>
+          <h5>Inspired by the the 1980’s game Simon, the cartoon character Mentok the Mind Taker, and a love for things that go boop, Mind Taker is a two player pattern matching memory game.</h5>
+          <hr>
+          <h5>The app was created as part of General Assembly's Web Development Immersive, and it was a great opportunity to create my first game entirely from scratch. From design to code, the entire project took just a weekend.</h5>
+          <a href="https://github.com/m428/Mind-Taker" class="btn">View Project</a>
         </div>
       </div>
       <div class="row project-rows">
@@ -81,24 +105,24 @@
           <h5>ReferMe is a networking app that connects job seekers looking for referrals with currently employed individuals at companies that offer referral incentives.</h5>
           <hr>
           <h5>As part of a General Assembly Labs project, I was assigned to a team with two product managers, one UX designer, and one additional developer. During a three week Agile sprint, our PM’s proposed a loosely formed product idea. Our UX designer then conducted user testing and developed wireframes, and as a group we fleshed out the project, discussed user feedback, and assessed potential challenges to development. I built the login from scratch and performed all front-end development.</h5>
-          <button type="button" class="btn">View Project</button>
+          <a href="https://github.com/BreanaMarie/resourcerp://campfireapp.co/" class="btn">View Project</a>
         </div>
         <div class="col-xs-12 col-md-6">
-          <img class="center-block preview" src="img/mindtaker-preview.png" alt="Mind Taker" width="500">
-          <h1>Mind Taker</h1>
-          <h2 class="font-handlee">Development &#38; Design</h2>
-          <h4>JavaScript | jQuery | HTML | CSS | Bootstrap</h4>
-          <h5>Inspired by the the 1980’s game Simon and the cartoon character Mentok the Mind Taker, and a love for things that go boop, Mind Taker is a pattern matching memory game.</h5>
+          <img class="center-block preview" src="img/kale-preview.png" alt="Mind Taker" width="500">
+          <h1>National Kale Day</h1>
+          <h2 class="font-handlee">Design &#38; Research</h2>
+          <h4>Adobe Illustrator | Adobe Photoshop</h4>
+          <h5>National Kale Day in a national initiative that strives to promote kale’s health benefits, nutritional density, and culinary versatility. As part of National Kale Day, we wanted to create promotional materials. These primarily consisted of educational handouts for schools and universities, informational infographics for health and fitness professionals, and event flyers and invites.</h5>
           <hr>
-          <h5>The app was created as part of General Assembly's Web Development Immersive, and it was a great opportunity to create my first game entirely from scratch. From design to code, the entire project took just a weekend.</h5>
-          <button type="button" class="btn">View Project</button>
+          <h5>As project manager for our small team, I wore several hats and also served as our primary nutritional researcher, graphic designer, and branding consultant. During the my time there, I created and designed all of the graphics from scratch, including our kale leaf logo. I also researched and developed most of the copy for our 20-page kale hero toolkit, in addition to designing and creating all of the toolkit’s visual elements. </h5>
+          <a href="http://nationalkaleday.org/" class="btn">View Project</a>
         </div>
       </div>
     <!--***** FOOTER *****-->
     <footer>
       <div class="row text-center">
         <div class="col-lg-12">
-          <p>Coyright &copy; Mala Nimalasuriya 2017</p>
+          <p>Copyright &copy; Mala Nimalasuriya 2017</p>
         </div>
       </div>
     </footer>

@@ -1,11 +1,12 @@
 /*@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Rubik:700');*/
 @import url('https://fonts.googleapis.com/css?family=Handlee|Roboto+Mono|Rubik:700');
 
-
 body {
   color: #F5B7C0;
   position: relative;
   font-family: 'Roboto Mono', monospace;
+  background-color: #FFFFFF;
+  background-image: url("http://i.imgur.com/YVmsY7J.jpg");
 }
 
 /*///// NAVIGATION BAR /////*/
@@ -21,13 +22,31 @@ body {
 
 /*///// BANNER /////*/
 .jumbotron {
-    background-color: red;
-    background-image: url("https://l0lrus.files.wordpress.com/2010/02/boring-neon.gif");
-    height: 100vh;
-    background-size: cover;
+    background-color: #FFFFFF;
+    background-image: url("http://i.imgur.com/YVmsY7J.jpg");
+    padding-top: 100px;
+}
+
+#name {
+  -moz-animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+   animation-delay: 1s;
+   font-size: 60pt;
+}
+
+#titles {
+  -moz-animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+   animation-delay: 2s;
 }
 
 /*///// MAIN CONTENT /////*/
+#main {
+  -moz-animation-delay: 3s;
+  -webkit-animation-delay: 3s;
+   animation-delay: 3s;
+ }
+
 .project-rows {
   padding: 40px 0px 40px 0px;
 }
@@ -47,6 +66,16 @@ body {
 }
 
 /*///// BASIC STYLES /////*/
+a {
+  text-decoration: none;
+  color: #F5B7C0;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  color: #979E9A;
+}
+
 h1 {
   font-family: 'Rubik', sans-serif;
 }
@@ -61,20 +90,20 @@ hr {
 
 .btn {
   background-color: #FFFFFF;
-  border: 3px solid #979E9A;
-  color: #979E9A;
-}
-
-.btn:hover {
-  background-color: #FFFFFF;
   border: 3px solid #F5B7C0;
   color: #F5B7C0;
 }
 
+.btn:hover {
+  background-color: #FFFFFF;
+  border: 3px solid #979E9A;
+  color: #979E9A;
+}
+
 .btn:focus, .btn:active {
   outline: none !important;
-  background-color: #F5B7C0;
-  border: 3px solid #F5B7C0;
+  background-color: #979E9A;
+  border: 3px solid #979E9A;
   color: #FFFFFF;
   box-shadow: none;
 }
