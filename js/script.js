@@ -1,9 +1,7 @@
-// TODO add back zoom animation because it's fun!
-// ZOOM ANIMATION
-  $(document).ready(function(){
-    $('.img-zoom').hover(function() {
-        $(this).addClass('transition');
-    }, function() {
-        $(this).removeClass('transition');
-    });
-  });
+// on click enlarge image and display modal
+$(function() {
+    	$('img').on('click', function() {
+			$('.enlargeImageModalSource').attr('src', $(this).attr('src'));
+			$('#enlargeImageModal').modal('show');
+		});
+});
