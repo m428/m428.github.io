@@ -1,8 +1,7 @@
-$(document).ready(function(){
-    $('.content').hover(function() {
-        $(".content").addClass('transition');
-
-    }, function() {
-        $(".content").removeClass('transition');
-    });
+// on click enlarge image and display modal
+$(function() {
+    	$('img').on('click', function() {
+			$('.enlargeImageModalSource').attr('src', $(this).attr('src'));
+			$('#enlargeImageModal').modal('show');
+		});
 });

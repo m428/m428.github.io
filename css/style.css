@@ -65,6 +65,11 @@ body {
   }
 }
 
+/*///// FOOTER /////*/
+.copyright {
+  font-size: 18pt;
+}
+
 /*///// BASIC STYLES /////*/
 a {
   text-decoration: none;
